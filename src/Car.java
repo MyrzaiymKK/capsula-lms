@@ -2,12 +2,7 @@ public class Car {
     String marka;
     int year;
     int cost;
-    public Car(String marka,int year,int cost){
-        this.marka = marka;
-        this.year = year;
-        this.cost = cost;
 
-    }
 
 
     public String getMarka() {
@@ -34,11 +29,5 @@ public class Car {
     public void setCost(int cost) {
         this.cost = cost;
     }
-    public String getCarInfo(){
-        return STR."""
-                Марка: \{marka}
-                Год: \{year}
-                Цена: \{cost}
-                """;
-    }
+
 }

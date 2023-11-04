@@ -4,11 +4,7 @@ public class University {
     String name;
     int found;
     String director;
-    public University(String name,int found,String director){
-        this.name= name;
-        this.found = found;
-        this.director = director;
-    }
+
    public String  getName(){
       return name;
    }

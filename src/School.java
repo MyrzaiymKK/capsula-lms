@@ -2,15 +2,11 @@ public class School {
     String name;
     String director;
     int children;
-    public School(String name,String director,int children){
-        this.name = name;
-        this.director = director;
-        this.children = children;
-    }
+
     public String getName(){
         return name;
     }
-    public void setName(){
+    public void setName(String name){
         this.name = name;
     }
 

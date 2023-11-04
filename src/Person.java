@@ -2,11 +2,7 @@ public class Person {
     String name;
     int age;
     String country;
-    public Person(String name,int age,String country){
-       this.name = name;
-       this.age = age;
-       this.country = country;
-    }
+
 
 
     public String getName() {
@@ -32,11 +28,5 @@ public class Person {
     public void setCountry(String country) {
         this.country = country;
     }
-    public String getPerInfo(){
-        return STR."""
-                Имя: \{name}
-                Возраст: \{age}
-                Страна: \{country}
-                """;
-    }
+
 }
